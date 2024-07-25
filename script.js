@@ -4,7 +4,7 @@ const navbarOffsetTop = navbar.offsetTop;
 const sections = document.querySelectorAll("section");
 const navbarLinks = document.querySelectorAll(".navbar-link");
 const progress = document.querySelector(".progress-bars-wrapper");
-const progressBarPercents = [85, 85, 75, 70, 80,48,20];
+const progressBarPercents = [65, 65, 65, 63, 55,20,80];
 
 window.addEventListener("scroll", () => {
   mainFn();
@@ -95,3 +95,5 @@ function Delete() {
 	}
 }
 _INTERVAL_VAL = setInterval(Type, 100);
+
+KONTOL
